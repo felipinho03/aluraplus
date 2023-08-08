@@ -12,10 +12,18 @@ color: var(--branco-principal);
    margin: 0;
     padding: 0; 
   }
-.principal { background-image: url("img/Background.png"); 
+.principal { 
+  background-image: url("img/Background.png"); 
+  background-image: url(“img/Background.png”);
+background-repeat: no-repeat;
 }
          
 .container {
    height: 100vh;
    }
-          
+   .principal {
+    background-image: url(“img/Background.png”);
+    }      
+    .container {
+      height: 100vh;
+      }
